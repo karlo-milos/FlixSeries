@@ -12,14 +12,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "base32-encoding": "file:../../../../.nvm/versions/node/v18.14.2/lib/node_modules/base32-encoding",
-    "cookie-parser": "file:../../../../.nvm/versions/node/v18.14.2/lib/node_modules/cookie-parser",
-    "cors": "file:../../../../.nvm/versions/node/v18.14.2/lib/node_modules/cors",
-    "express": "file:../../../../.nvm/versions/node/v18.14.2/lib/node_modules/express",
-    "express-session": "file:../../../../.nvm/versions/node/v18.14.2/lib/node_modules/express-session",
-    "jsonwebtoken": "file:../../../../.nvm/versions/node/v18.14.2/lib/node_modules/jsonwebtoken",
-    "qrcode": "file:../../../../.nvm/versions/node/v18.14.2/lib/node_modules/qrcode",
-    "sqlite3": "file:../../../../.nvm/versions/node/v18.14.2/lib/node_modules/sqlite3",
-    "totp-generator": "file:../../../../.nvm/versions/node/v18.14.2/lib/node_modules/totp-generator"
+    "base32-encoding": "file:../../../AppData/Roaming/npm/node_modules/base32-encoding",
+    "cookie-parser": "file:../../../AppData/Roaming/npm/node_modules/cookie-parser",
+    "cors": "file:../../../AppData/Roaming/npm/node_modules/cors",
+    "express": "file:../../../AppData/Roaming/npm/node_modules/express",
+    "express-session": "file:../../../AppData/Roaming/npm/node_modules/express-session",
+    "jsonwebtoken": "file:../../../AppData/Roaming/npm/node_modules/jsonwebtoken",
+    "nodemailer": "file:../../../AppData/Roaming/npm/node_modules/nodemailer",
+    "qrcode": "file:../../../AppData/Roaming/npm/node_modules/qrcode",
+    "sqlite3": "file:../../../AppData/Roaming/npm/node_modules/sqlite3",
+    "totp-generator": "file:../../../AppData/Roaming/npm/node_modules/totp-generator"
   }
 }
