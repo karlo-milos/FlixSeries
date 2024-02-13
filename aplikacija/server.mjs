@@ -30,7 +30,7 @@ konf
   })
   .catch((greska) => {
     if (process.argv.length == 2) {
-      console.log("Molim unesite naziv datoteke!");
+      console.log("Molim unesite naziv datoteke!!!");
     } else {
       console.log(greska);
     }
