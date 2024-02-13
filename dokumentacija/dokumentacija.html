@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokumentacija</title>
+</head>
+
+<body>
+    <div class="kontejner">
+        <main>
+            <div>
+                <div>
+                    <a href="http://localhost:65300">Odlazak na Angular aplikaciju</a><br><br>
+                    <div class="centar">
+                        <img src="../../assets/dokumenti/slike/profilna.jpg" alt="profilna">
+                        <h3>Karlo Miloš</h3>
+                        <h3>kmilos21&#64;foi.hr</h3>
+                        <br><br>
+                        <figure>
+                            <a href="../../assets/dokumenti/slike/kmilos21_ERA.png" target="_blank">
+                                <img src="../../assets/dokumenti/slike/kmilos21_ERA.png" alt="ERA model"
+                                    class="smanjiSliku">
+                            </a>
+                            <figcaption>Slika ERA modela</figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <table>
+                            <tr>
+                                <th>VAŽNE NAPOMENE</th>
+                            </tr>
+                            <tr>
+                                <td>1. Dokumentacija je također ugrađena u Angular aplikaciju i za nju je potrebna
+                                    prijava</td>
+                            </tr>
+                            <tr>
+                                <td>2. Za pokretanje servera, potrebno je unijeti vlastite ključeve u datoteku
+                                    konfiguracija.csv</td>
+                            </tr>
+                            <tr>
+                                <td>3. Za skeniranje QR koda, koristio sam mobilnu aplikaciju "QR skener"</td>
+                            </tr>
+                            <tr>
+                                <td>4. Slanje maila je zakomentirano, no možete unijeti vlastite podatke i koristiti
+                                    slanje maila (lokacija na kojoj se slanje maila nalazi:
+                                    server/aplikacija/servis/restKorisnik)</td>
+                            </tr>
+                            <tr>
+                                <td>5. Aplikacija je testirana i ispravno radi na Firefoxu</td>
+                            </tr>
+                            <tr>
+                                <td>6. "KeePassXC" jest aplikacija koju sam koristio za generiranje TOTP-a</td>
+                            </tr>
+                            <tr>
+                                <td>7. Github login vjerojatno neće raditi zbog razlike u portovima</td>
+                            </tr>
+                            <tr>
+                                <td>8. Dokumentacija koja je ovdje poslužena nema dizajn</td>
+                            </tr>
+                        </table>
+
+                    </div>
+                    <br><br>
+                    <h1>Zadaća 2.</h1>
+                    <table>
+                        <caption>Tablica - Zadaci iz 2. zadaće</caption>
+                        <thead>
+                            <tr>
+                                <td>Zadatak</td>
+                                <td>Izvršenost</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1. Ažurirane tablice iz 1. zadaće</td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>2. Dodana tablica za 2. zadaću</td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>3. Složen npm start i .json datoteke </td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>4. Izbrisan moj TMDB ključ </td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>5. Klijentski dio prebačen na Angular </td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>6. Posluživanje kompajlirane verzije Angular aplikacije </td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>7. Dokumentacija ugrađena u Angular aplikaciju </td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>8. REST servis u pozadini </td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>9. Korištenje JWT-a za svu komunikaciju sa serverom </td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>10. Čitanje porta i bazične putanje iz environments </td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>11. SCSS dizajn </td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>12. reCaptcha na minimalno 3 obrasca </td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>13. Implementacija dvorazinske autentifikacije + QR Kod </td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>14. Korištenje TOTP-a za prijavu </td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>15. OAuth prijava putem Githuba </td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>16. Korištenje localstorage-a za Github korisnike </td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>17. Postojanje korisnika s TOTP i bez TOTP-a + informacije o njima </td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>18. Pozadinski dio prebaciti u Typescript </td>
+                                <td>Nije izvršeno</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h1>Zadaća 1.</h1>
+                    <table>
+                        <caption>Tablica 2. Pregled resursa, metoda i parametara REST servisa (1. zadaća)</caption>
+                        <thead>
+                            <tr>
+                                <td>Resurs</td>
+                                <td>GET</td>
+                                <td>POST</td>
+                                <td>PUT</td>
+                                <td>DELETE</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>baza/korisnici</td>
+                                <td>Izvršeno</td>
+                                <td>Izvršeno</td>
+                                <td>Izvršeno (status 501)</td>
+                                <td>Izvršeno (status 501)</td>
+                            </tr>
+                            <tr>
+                                <td>baza/korisnici/korime</td>
+                                <td>Izvršeno</td>
+                                <td>Izvršeno</td>
+                                <td>Izvršeno</td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>baza/korisnici/korime/prijava</td>
+                                <td>Izvršeno</td>
+                                <td>Izvršeno</td>
+                                <td>Izvršeno (status 501)</td>
+                                <td>Izvršeno (status 501)</td>
+                            </tr>
+                            <tr>
+                                <td>baza/favoriti</td>
+                                <td>Izvršeno</td>
+                                <td>Izvršeno</td>
+                                <td>Izvršeno (status 501)</td>
+                                <td>Izvršeno (status 501)</td>
+                            </tr>
+                            <tr>
+                                <td>baza/favoriti/id</td>
+                                <td>Izvršeno</td>
+                                <td>Izvršeno</td>
+                                <td>Izvršeno</td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>baza/dnevnik?stranica=brojsortiraj=[d | m]...</td>
+                                <td>Ne radi filtriranje</td>
+                                <td>Izvršeno (status 501)</td>
+                                <td>Izvršeno (status 501)</td>
+                                <td>Izvršeno (status 501)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <br>
+                    <br>
+                    <table>
+                        <caption>Tablica 3. Pregled funkcionalnosti Web aplikacije (1. zadaća)</caption>
+                        <thead>
+                            <tr>
+                                <td>Uloga</td>
+                                <td>Stranica</td>
+                                <td>Opis</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Gost</td>
+                                <td>Početna</td>
+                                <td>Straničenje ne radi (dohvaća se uvijek 20 zapisa)</td>
+                            </tr>
+                            <tr>
+                                <td>Gost/korisnik</td>
+                                <td>SerijaDetalji</td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>Gost</td>
+                                <td>Dokumentacija</td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>Gost</td>
+                                <td>Prijava/odjava</td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>Korisnik</td>
+                                <td>Profil</td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>Korisnik</td>
+                                <td>Favoriti</td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>Korisnik</td>
+                                <td>FavoritDetalji</td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>Admin</td>
+                                <td>Registracija</td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>Admin</td>
+                                <td>Korisnici</td>
+                                <td>Izvršeno</td>
+                            </tr>
+                            <tr>
+                                <td>Admin</td>
+                                <td>Dnevnik</td>
+                                <td>Ne radi filtriranje</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </div>
+</body>
+
+</html>

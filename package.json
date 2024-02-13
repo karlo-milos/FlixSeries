@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.mjs",
+  "scripts": {
+    "pripremi": "npm link --save nodemailer express sqlite3 express-session cookie-parser jsonwebtoken cors qrcode totp-generator base32-encoding",
+    "debug": "nodemon server.mjs konfiguracija.csv",
+    "start": "node ./aplikacija/server.mjs ./konfiguracija.csv",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base32-encoding": "file:../../../../.nvm/versions/node/v18.14.2/lib/node_modules/base32-encoding",
+    "cookie-parser": "file:../../../../.nvm/versions/node/v18.14.2/lib/node_modules/cookie-parser",
+    "cors": "file:../../../../.nvm/versions/node/v18.14.2/lib/node_modules/cors",
+    "express": "file:../../../../.nvm/versions/node/v18.14.2/lib/node_modules/express",
+    "express-session": "file:../../../../.nvm/versions/node/v18.14.2/lib/node_modules/express-session",
+    "jsonwebtoken": "file:../../../../.nvm/versions/node/v18.14.2/lib/node_modules/jsonwebtoken",
+    "qrcode": "file:../../../../.nvm/versions/node/v18.14.2/lib/node_modules/qrcode",
+    "sqlite3": "file:../../../../.nvm/versions/node/v18.14.2/lib/node_modules/sqlite3",
+    "totp-generator": "file:../../../../.nvm/versions/node/v18.14.2/lib/node_modules/totp-generator"
+  }
+}
